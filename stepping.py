@@ -62,8 +62,8 @@ def spin_motor(steps):
 def main():
     try:
         while True:
-            spin_motor(100)  # Spin motor for 100 steps
-            sleep(1)  # Pause for 1 second
+            spin_motor(1000)  # Spin motor for 100 steps
+            # sleep(1)  # Pause for 1 second
     except KeyboardInterrupt:
         print("Stopping motor...")
         wiringpi.digitalWrite(coil_A_1_pin, 0)
