@@ -166,6 +166,7 @@ try:
             number = str(i1) + str(i2) + str(i3) + str(i4)
             if(number == correctNum):
                 print("juist")
+
             else:
                 print("fout")
                 blink()
